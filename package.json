@@ -1,0 +1,35 @@
+{
+  "name": "ig-live-video-backend",
+  "version": "1.0.0",
+  "description": "Backend service for IG-Live video functionality",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "cleanup": "node src/utils/cleanupOldVideos.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "supabase",
+    "imagekit",
+    "video"
+  ],
+  "author": "IG-Live Team",
+  "license": "MIT",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.38.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "imagekit": "^4.1.4",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.1"
+  }
+}
