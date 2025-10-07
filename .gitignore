@@ -1,2 +1,46 @@
+# Environment & Config
 .env
-.env.exemple
+node_modules/
+*.log
+
+# Demo Files (Development Only)
+*Demo.js
+demo.js
+
+# Utility Scripts (Development Only)
+runAll.js
+runAllDemos.js
+runAllTests.js
+runAllUtils.js
+runCleanup.js
+runMaintenance.js
+initProject.js
+projectStructure.js
+generateDocs.js
+generateReport.js
+updateDependencies.js
+setupDevEnv.js
+
+# Test & Debug Files
+testApi.js
+diagnostics.js
+workflowTest.js
+cleanupTestData.js
+verifyDatabase.js
+
+# Database Utilities (Use External Tools)
+backupDatabase.js
+restoreDatabase.js
+
+# Shell Scripts (Development Only)
+start.sh
+
+# Documentation (Excessive)
+SOLUTION.md
+ARCHITECTURE.md
+CRON.md
+CHANGELOG.md
+CONTRIBUTORS.md
+SUPPORT.md
+index.jsNT.md
+LICENSEndlingDemo.js
