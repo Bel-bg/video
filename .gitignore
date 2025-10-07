@@ -2,7 +2,8 @@
 .env
 node_modules/
 *.log
-
+Dockerfile
+docker-compose.yml
 # Demo Files (Development Only)
 *Demo.js
 demo.js
