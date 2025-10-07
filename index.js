@@ -1,0 +1,40 @@
+// index.js
+// Main entry point showing how to use the backend
+
+console.log("IG-Live Video Backend");
+console.log("====================");
+console.log("Welcome to the IG-Live Video Backend system!");
+console.log("");
+console.log("This backend provides the following features:");
+console.log("  ✅ Video upload and storage");
+console.log("  ✅ Video feed retrieval");
+console.log("  ✅ Like and comment functionality");
+console.log("  ✅ User authentication");
+console.log("  ✅ Real-time interactions");
+console.log("  ✅ Automatic cleanup of old videos");
+console.log("");
+console.log("API Endpoints:");
+console.log("  GET  /api/videos/feed        - Get video feed");
+console.log("  GET  /api/videos/:id         - Get specific video");
+console.log("  POST /api/videos             - Upload video");
+console.log("  DELETE /api/videos/:id       - Delete video");
+console.log("  POST /api/videos/:id/like    - Like/unlike video");
+console.log("  GET  /api/videos/:id/comments - Get video comments");
+console.log("  POST /api/videos/:id/comment - Add comment");
+console.log("  GET  /api/auth/imagekit      - Get ImageKit auth params");
+console.log("  GET  /api/health             - Health check");
+console.log("");
+console.log("To get started:");
+console.log('  1. Run "npm install" to install dependencies');
+console.log("  2. Configure your .env file with credentials");
+console.log('  3. Run "npm start" to start the server');
+console.log('  4. Run "node workflowTest.js" to test the workflow');
+console.log("");
+console.log("For more information, check the documentation files:");
+console.log("  - README.md: General information");
+console.log("  - API.md: API documentation");
+console.log("  - DATABASE.md: Database schema");
+console.log("  - DEPLOYMENT.md: Deployment guide");
+console.log("  - SOLUTION.md: Complete solution overview");
+console.log("");
+console.log("Happy coding!");
